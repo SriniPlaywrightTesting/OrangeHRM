@@ -12,6 +12,8 @@ test('@Smoke_OHRM LogIn Test',async ({page}) =>
     await obj.logOut_OHRM_Application();
      await obj.waitStatement();
 
+    console.log(' OrangeHRM Appliction - Log Out from the Test');
+
 
 
 })
